@@ -12,6 +12,10 @@ public class Number {
         this.number = number;
     }
 
+    int getNumber() {
+        return number;
+    }
+
     private void validatePositiveRange(final int number) {
         if (number <= 0) {
             throw new IllegalArgumentException(ErrorMessage.INVALID_INPUT_RANGE.getMessage());

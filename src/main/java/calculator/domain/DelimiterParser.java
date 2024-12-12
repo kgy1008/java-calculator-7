@@ -19,9 +19,6 @@ public class DelimiterParser {
     }
 
     private boolean isContainCustomDelimiter(final String input) {
-        if (input.contains(PREFIX) && input.contains(SUFFIX)) {
-            return true;
-        }
-        return false;
+        return input.contains(PREFIX) && input.contains(SUFFIX);
     }
 }

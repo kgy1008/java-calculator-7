@@ -3,7 +3,8 @@ package calculator.common;
 public enum ErrorMessage {
 
     INVALID_INPUT("아무것도 입력되지 않았습니다. 다시 입력해주세요."),
-    INVALID_INPUT_TYPE("숫자로 입력해주세요.");
+    INVALID_INPUT_TYPE("숫자로 입력해주세요."),
+    INVALID_INPUT_RANGE("입력하실 숫자는 양수여야 합니다.");
 
     private static final String HEADER = "[ERROR] ";
     private final String message;

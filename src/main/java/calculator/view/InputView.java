@@ -13,7 +13,7 @@ public class InputView {
     }
 
     private void validate(final String input) {
-        if (input == null || input.isBlank()) {
+        if (input == null) {
             throw new IllegalArgumentException(ErrorMessage.INVALID_INPUT.getMessage());
         }
     }
